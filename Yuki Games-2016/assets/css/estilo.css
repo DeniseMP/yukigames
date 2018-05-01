@@ -1,0 +1,260 @@
+
+@media (max-width: 1366px){
+	#banner img{
+		width: 1349px;
+		height: 455px;
+		
+	}
+}
+
+@media (max-width:960px){
+#banner img{
+     width: 940px;
+     height: 317px;
+     
+    }
+ }
+ @media (max-width:480px){
+#banner img{
+     width: 450px;
+     height: 152px;
+     
+    }
+ }
+
+
+
+body{
+
+	background-color: #e6d8e5;
+}
+
+.navbar-default {
+
+	color: #c4abc1;
+	background-color: #f5e2de;
+	border: none;
+	box-shadow: 3px 3px 3px #e5c4bd;
+}
+
+.navbar-default .navbar-brand, .navbar-default:hover .navbar-brand:hover{
+
+	color: #c4abc1;
+
+}
+
+.navbar-default .navbar-nav>li>a{
+
+	color: #c4abc1;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover {
+
+	color: #a692a6;
+	text-shadow: 1px 1px;
+
+	background-image: repeating-radial-gradient(transparent, transparent 9px, #d7c9d8 11px, #d7c9d8 20px); 
+	background-position:center;
+   	
+	animation: background-size 1s infinite alternate;
+	animation-name: botao;
+    animation-duration: 1s;
+    animation-timing-function: initial;
+    animation-delay: initial;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+
+}
+
+@keyframes botao{
+
+	0%{background-size: 5px 5px;}
+	25%{background-size: 20px 12px;}
+	50%{background-size: 40px 25px;}
+	75%{background-size: 60px 37px;}
+	100%{background-size: 80px 50px;}
+
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+
+	color: #a692a6;
+	background-color: #f5e2de;
+}
+
+.dropdown-menu{
+
+	background-color: #f5e2de;
+}
+.dropdown-menu>li>a{
+
+	color: #a692a6;
+
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+
+	background-color: #d1bfd1;
+	color: #a692a6;
+	text-shadow: 1px 1px;
+
+}
+
+
+main { 
+
+margin-left: 5em;
+padding-bottom: 2em;
+
+ }
+
+ header{
+
+ 	text-align: center;
+ }
+
+ article{
+
+ 	color: #8e7e8e;
+ 	
+ }
+
+.row{
+
+	max-width: 98%;
+	padding-top: 2em;
+}
+
+#img img:hover{
+
+	animation: transform-5 1s infinite alternate;
+	animation-name: img;
+	animation-duration: 1.8s;
+	animation-timing-function: initial;
+	animation-delay: initial;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: initial;
+	animation-play-state: initial;
+
+	transform: perspective(400px) rotateY(0deg);
+
+
+}
+
+@keyframes img{
+
+	0%{ transform: perspective(400px) rotateY(0deg); }
+	
+
+	100%{ transform: perspective(400px) rotateY(360deg); }
+}
+
+
+#about{
+
+	background-color: #f5e2de;
+	box-shadow: 1px 1px 12px 12px #e5c4bd;
+	margin-bottom: 2em;
+	color: #a692a6;
+	text-shadow: 1px 1px;
+
+}
+
+#main{
+
+
+	background-color: #f5e2de;
+	box-shadow: 1px 1px 12px 12px #e5c4bd;
+	margin-bottom: 2em;
+	color: #a692a6;
+	text-shadow: 1px 1px;
+	text-align: center;
+	padding-bottom: 1em;
+
+}
+}
+
+#form{
+
+	background-color: #f5e2de;
+	box-shadow: 1px 1px 12px 12px #e5c4bd;
+	margin-bottom: 2em;
+	color: #a692a6;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.form-control:focus{
+
+	border-color: #e5c4bd;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 118, 102, 0.6);
+}
+
+
+.drag{
+	position:relative;
+	cursor:arrow;
+	z-index: 100;
+	}
+
+#doll{
+
+	background-color: #f5e2de;
+	box-shadow: 1px 1px 12px 12px #e5c4bd;
+	margin-bottom: 2em;
+	color: #a692a6;
+	text-shadow: 1px 1px;
+	text-align: center;
+}
+
+#dollhover{
+
+	background-image: url("../images/game1/275.jpg");
+	box-shadow: 1px 1px 12px 12px #e5c4bd;
+	margin-bottom: 2em;
+	color: #a692a6;
+	text-shadow: 1px 1px;
+	text-align: center;
+
+}
+
+#dollhov{
+
+
+	background-image: url("../images/game2/fundo.jpeg");
+	box-shadow: 1px 1px 12px 12px #e5c4bd;
+	margin-bottom: 2em;
+	color: #a692a6;
+	text-shadow: 1px 1px;
+	text-align: center;
+
+}
+
+#dollh{
+
+
+	background-image: url("../images/game3/fundo.jpg");
+	box-shadow: 1px 1px 12px 12px #e5c4bd;
+	margin-bottom: 2em;
+	color: #a692a6;
+	text-shadow: 1px 1px;
+	text-align: center;
+
+}
+
+
+footer{
+
+width: 100%;
+padding-top: 2em;
+background-color: #f5e2de;
+box-shadow: 3px 3px 3px 6px #e5c4bd;
+text-align: center;
+color: #c4abc1;
+
+}
